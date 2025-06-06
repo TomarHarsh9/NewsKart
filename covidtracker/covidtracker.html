@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>COVID TRACKER</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- COVID 19 data -->
+    <div class="display-4 text-center">Latest COVID 19 statistics</div>
+    <div class="APIContainer">
+
+
+        <div class="covidInput" id="india_State">
+            <p>INDIA</p>
+        </div>
+
+        <!-- <select class="form-control" id="countries">
+            <option > SELECT_A_COUNTRY </option>
+        </select> -->
+        <hr class="mySeparator">
+
+        <div class="ind-mp_info " id="indiastate">
+            <table class="ind-mp_tbl sortable">
+                <thead>
+                    <tr>
+                        <th>State</th>
+
+                        <th class="`+((device=='desktop' || device=='mobile' || device=='apps')?'sort ':'')+`sort">Cases</th>
+                        <th>Active</th>
+                        <th>Recovered</th>
+                        <th>Deaths</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <!-- <div class="text-center" id="">
+            <p class="marginTopBottom" id="covidNewConfirmed">NEW CASES: </p>
+            <p class="marginTopBottom" id="covidTotalConfirmed">TOTAL CASES: /</p>
+            <p class="marginTopBottom" id="covidNewDeaths">NEW DEATHS: /</p>
+            <p class="marginTopBottom" id="covidTotalDeaths">TOTAL DEATHS: /</p>
+            <p class="marginTopBottom" id="covidLastUpdate">LAST UPDATED: /</p> -->
+        <!-- </div> -->
+    </div>
+
+    <script src="/covidtracker/covidtracker.js" type="module"></script>
+    <script src="/covidtracker/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

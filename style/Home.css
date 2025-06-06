@@ -1,0 +1,278 @@
+/* Body */
+
+
+/* * {
+    overflow: hidden;
+} */
+
+body {
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Navbar */
+
+@media (max-width:375px) {
+    .navbar {
+        /* display: block; */
+        background-color: aquamarine;
+        min-width: 140%;
+    }
+}
+
+
+/* News logo  */
+
+ .ISNlogo img {
+   
+    filter: invert(100%);
+    margin-right: -245px;
+    height: 92px;
+    margin-left: 115px;
+}
+
+
+ /* .container-fluid ::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("/image/indian.png") no-repeat left;
+    top: 17%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+
+
+/* Ul navbar menu */
+
+.navbar-expand-lg .navbar-nav {
+    margin: 10px;
+    margin-left: 22%;
+}
+
+
+/* li  */
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 17px;
+    color: #fff;
+    padding: 3px, 0px;
+    margin: 7px, 6px;
+    line-height: 15px;
+    letter-spacing: 1.9px;
+    font-weight: 700;
+}
+
+
+/* News Container */
+
+.accordion {
+    margin-top: 2%;
+    display: grid;
+    grid-gap: 2rem;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+
+/* news image */
+
+#image {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* move Breaking News Live */
+
+
+.break {
+    margin: 6px 0px 1px 0px;
+}
+
+.break {
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.break .center-section {
+    margin: 0 auto;
+}
+
+.center-section {
+    max-width: 1346px;
+    margin: 20px auto 50px;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+#newsTicker1 {
+    border: 0;
+    border-radius: 0!important;
+    background: #f2f2f2;
+    height: 35px !important;
+}
+#newsTicker1{
+
+    height: 40px;
+    line-height: 38px;
+    border-radius: 2px;
+    border-width: 1px;
+ 
+}
+.bn-breaking-news {
+    display: block;
+    width: auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.redbreak {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 10px;
+    line-height: 16px;
+    margin-right: 10px;
+    font-weight: 700;
+    background: linear-gradient( 74deg, rgba(214, 33, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.bn-news {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.bn-news ul {
+    display: block;
+    position: relative;
+}
+
+.bn-news ul {
+    list-style: none;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.bn-news ul li {
+    display: list-item;
+    float: left;
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    transition: .2s linear;
+    color: black;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.bn-news ul li a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.bn-controls {
+    width: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    /* user-select: none; */
+}
+
+.bn-controls button {
+    width: 30px;
+    float: left;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    border-left: solid 1px #EEE;
+    text-align: center;
+    background-color: #f6f6f6;
+    outline: none;
+}
+
+.bn-arrow.bn-prev {
+    transform: rotate(135deg);
+    left: 3px;
+}
+
+.bn-arrow.bn-next {
+    transform: rotate(310deg);
+    left: 3px;
+}
+
+.bn-arrow {
+    margin: 0;
+    display: inline-block;
+    height: 8px;
+    position: relative;
+    width: 8px;
+    top: -2px;
+}
+
+.bn-arrow::after {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    content: '';
+    display: inline-block;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+
+
+/* Menu Business etc */
+
+.btn {
+    border: none;
+    margin: 3px 2px;
+}
+
+
+/* On footer Go to next page */
+
+.nextPage {
+    font-size: 20px;
+}

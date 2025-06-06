@@ -1,0 +1,113 @@
+/* Body */
+
+
+/* * {
+    overflow: hidden;
+} */
+
+body {
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Navbar */
+
+@media (max-width:375px) {
+    .navbar {
+        /* display: block; */
+        background-color: aquamarine;
+        min-width: 140%;
+    }
+}
+
+
+/* News logo  */
+
+.ISNlogo img {
+
+
+    filter: invert(100%);
+    margin-right: -245px;
+    height: 92px;
+    margin-left: 115px;}
+
+
+/* .container-fluid>a::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("/image/logo_200x200\ \(1\).png") no-repeat left;
+    top: 17%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+
+
+/* Ul navbar menu */
+
+.navbar-expand-lg .navbar-nav {
+    margin: 10px;
+    margin-left: 22%;
+}
+
+
+/* li  */
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 17px;
+    color: #fff;
+    padding: 3px, 0px;
+    margin: 7px, 6px;
+    line-height: 15px;
+    letter-spacing: 1.9px;
+    font-weight: 700;
+}
+
+
+/* News Container */
+
+.accordion {
+    display: grid;
+    grid-gap: 2rem;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+
+/* news image */
+
+#image {
+    width: 100%;
+    height: 100%;
+}
+
+#breaking_News {
+    color: rgb(150, 46, 46);
+}
+
+
+/* Menu Business etc */
+
+.btn {
+    border: none;
+    margin: 3px 2px;
+}
+
+
+/* On footer Go to next page */
+
+.nextPage {
+    font-size: 20px;
+}
