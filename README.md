@@ -12,3 +12,4 @@ experience.
 <br>
 • Focused on performance optimization and clean code architecture. 
 
+![Screenshot (67)](https://github.com/user-attachments/assets/50ea829b-c6f7-4dd9-aaec-813dd58205c8)
